@@ -7,3 +7,7 @@ The registry tightly integrates with the legitimate Safe Proxy Factory. It inclu
 Currently there are four people registered as beneficiaries: Alice, Bob, Charlie and David. The registry has 40 DVT tokens in balance to be distributed among them.
 
 Uncover the vulnerability in the registry, rescue all funds, and deposit them into the designated recovery account. In a single transaction.
+
+```
+forge test --match-path Backdoor.t.sol
+```
